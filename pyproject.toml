@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tp1"
+version = "0.1.0"
+description = ""
+authors = ["Renaud ANGLES <contact@asciiparait.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "^0.83.0"
+docker = "^7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
